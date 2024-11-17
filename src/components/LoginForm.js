@@ -20,7 +20,7 @@ const LoginForm = () => {
 
     return (
         <Container className="mt-5">
-            <h2>Iniciar Sesión</h2>
+            <h2 style={{ color: "#ffffff"}}>Iniciar Sesión</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group>
                     <Form.Label>Email</Form.Label>
@@ -32,7 +32,7 @@ const LoginForm = () => {
                     />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label>Contraseña</Form.Label>
+                    <Form.Label style={{ color: "#ffffff"}}>Contraseña</Form.Label>
                     <Form.Control
                         type="password"
                         value={password}

@@ -3,7 +3,7 @@ import { Table } from 'react-bootstrap';
 
 const ActivityList = ({ activities }) => {
     return (
-        <Table striped bordered hover>
+        <Table striped bordered hover className="table">
             <thead>
                 <tr>
                     <th>#</th>
@@ -35,3 +35,4 @@ const ActivityList = ({ activities }) => {
 };
 
 export default ActivityList;
+
